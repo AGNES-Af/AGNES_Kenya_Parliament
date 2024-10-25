@@ -145,15 +145,36 @@
 		</section><!-- /.top-area-->
 		<!-- top-area End -->
 
+		<!-- type-writer -->
+		<script>
+			const text = "Welcome to the Monitoring and Accountability Tool";
+			let index = 0;
+			const speed = 100; // Speed of typing in milliseconds
+		
+			function typeWriter() {
+				if (index < text.length) {
+					document.getElementById("typewriter").innerHTML += text.charAt(index);
+					index++;
+					setTimeout(typeWriter, speed);
+				}
+			}
+		
+			window.onload = function() {
+				typeWriter(); // Start the typing animation when the page loads
+			};
+		</script>
+		
 		<!--welcome-hero start -->
 		<section id="home" class="welcome-hero">
 			<div class="container">
 				<div class="welcome-hero-txt">
-					<h2>Welcome to the Monitoring and Accountability <br> Tool </h2>
+					<!-- Assign the 'typewriter' id to the h2 element -->
+					<h2 id="typewriter"></h2>
 					<p>
 						This tool is designed to track and evaluate government accountability. The platform provides key insights into parliamentary decisions, budget tracking, policy progress, and legislation. 
 					</p>
 				</div>
+			</div>
 				<!-- <div class="welcome-hero-serch-box">
 					<div class="welcome-hero-form">
 						<div class="single-welcome-hero-form">
@@ -187,7 +208,7 @@
 		<!--welcome-hero end -->
 
 		<!--list-topics start -->
-		<section id="list-topics" class="list-topics">
+		<!-- <section id="list-topics" class="list-topics">
 			<div class="container">
 				<div class="list-topics-content">
 					<ul>
@@ -243,11 +264,15 @@
 						  </li>
 					  </ul>					  
 				</div>
-			</div><!--/.container-->
+			</div> -->
+			<!--/.container-->
 
-		</section><!--/.list-topics-->
+		<!-- </section> -->
+		<!--/.list-topics-->
 		<!--list-topics end-->
-
+<br>
+<br>
+<br>
 		<!--works start -->
 		<section id="works" class="works">
 			<div class="container">

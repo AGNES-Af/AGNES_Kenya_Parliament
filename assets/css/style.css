@@ -247,7 +247,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #008751;}
     background-position:center;
     background-size:cover;
     text-align: center;
-    height:800px;
+    height:600px;
     z-index: 1;
 }
 .dash-hero {
@@ -256,7 +256,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #008751;}
     background-position:center;
     background-size:cover;
     text-align: center;
-    height:800px;
+    height:600px;
     z-index: 1;
 }
 .welcome-hero:before{
