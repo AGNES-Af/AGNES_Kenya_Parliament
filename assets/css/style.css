@@ -247,7 +247,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #008751;}
     background-position:center;
     background-size:cover;
     text-align: center;
-    height:600px;
+    height:500px;
     z-index: 1;
 }
 .dash-hero {
@@ -257,6 +257,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #008751;}
     background-size:cover;
     text-align: center;
     height:600px;
+    z-index: 1;
+}
+.dash-hero-page {
+    position: relative;
+    background:url(../images/welcome-hero/b1.jpg)no-repeat;
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    height:400px;
     z-index: 1;
 }
 .welcome-hero:before{
@@ -433,7 +442,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #008751;}
 /*-------------------------------------
         6. Works 
 --------------------------------------*/
-.works{padding: 0 0 90px;}
+.works{padding: 0 0 40px;}
 .works-content {margin-top: 73px;}
 
 .single-how-works{
@@ -633,7 +642,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #008751;}
 /*-------------------------------------
         8. Reviews
 --------------------------------------*/
-.reviews{padding:117px 0 75px;}
+.reviews{padding:17px 0 1px;}
 .reviews-content {margin-top:36px;}
 
 /*single-testimonial-box */
@@ -770,7 +779,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #008751;}
 /*-------------------------------------
         10. Blog
 --------------------------------------*/
-.blog{padding:120px 0 90px;}
+.blog{padding:12px 0 90px;}
 .blog-content{margin-top: 80px;}
 
 .single-blog-item{
